@@ -1,0 +1,31 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+/* Utilizei o conteiner para ser a primeira caixar.Porque preciso de uma caixa para ter 100 porcento da pagina para eu poder centralizar o elemento que eu quizer na tela. */
+.conteiner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* place-items: center; */
+   background: rgb(82, 167, 120);
+   height: 100vh;
+}
+
+ /* È uma div que contem o link que vou estilizar para se tornar um link-button */
+.link-button a{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: blueviolet;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+/* Esse é para colocar o hover. */
+.link-button a:hover {
+   background-color: tomato;
+   border-radius: 20px;
+}
