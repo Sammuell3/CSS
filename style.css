@@ -3,7 +3,8 @@
    margin: 0;
    box-sizing: border-box;
 }
-/* Utilizei o conteiner para ser a primeira caixar.Porque preciso de uma caixa para ter 100 porcento da pagina para eu poder centralizar o elemento que eu quizer na tela. */
+/* Utilizei o conteiner para ser a primeira caixar.Porque preciso de uma caixa para ter 100 porcento da 
+pagina para eu poder centralizar o elemento que eu quizer na tela. */
 .conteiner {
    display: flex;
    justify-content: center;
